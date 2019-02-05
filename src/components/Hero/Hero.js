@@ -11,5 +11,10 @@ const Hero = () => (
 export default Hero;
 
 const HeroDiv = Styled.div`
-
+  background: url(white-waves.png);
+  min-height:35vh;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  align-items: center;
 `;
