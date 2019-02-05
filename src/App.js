@@ -1,28 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Styled from 'styled-components';
+import Nav from './components/Nav/Nav';
 
 class App extends Component {
+  state = {
+    score: 0,
+    topScore: 0,
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <AppDiv>
+        <Nav score={this.state.score} topScore={this.state.topScore} />
+      </AppDiv>
     );
   }
 }
 
 export default App;
+
+const AppDiv = Styled.div`
+
+`;
