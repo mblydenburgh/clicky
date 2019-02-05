@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Styled from 'styled-components';
 import Nav from './components/Nav/Nav';
+import Hero from './components/Hero/Hero';
 
 class App extends Component {
   state = {
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <AppDiv>
         <Nav score={this.state.score} topScore={this.state.topScore} />
+        <Hero />
       </AppDiv>
     );
   }
