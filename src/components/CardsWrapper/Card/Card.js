@@ -1,9 +1,9 @@
 import React from 'react';
 import Styled from 'styled-components';
 
-const Card = ({alt}) => {
+const Card = ({alt,handleClick,id}) => {
   return (
-      <CardDiv>
+      <CardDiv onClick={() => handleClick(id)}>
         {alt}
       </CardDiv>
       )  

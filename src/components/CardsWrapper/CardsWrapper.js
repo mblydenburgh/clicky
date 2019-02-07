@@ -2,10 +2,21 @@ import React from 'react';
 import Styled from 'styled-components'
 import Card from './Card/Card'
 
-const CardsWrapper = ({cards}) => {
+const CardsWrapper = ({cards,handleClick}) => {
     return (
         <WrapperDiv>
-            {cards.map(card => <Card alt={card.alt} />)}
+            {
+                cards.map((card,index) => {
+                    return (
+                        <Card alt={card.alt} 
+                              clicked={card.clicked}
+                              key={index}
+                              id={index}
+                              handleClick={handleClick}
+                        />
+                    )
+                })
+            }
         </WrapperDiv>
         );
 };
