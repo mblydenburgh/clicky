@@ -19,11 +19,15 @@ class App extends Component {
   }
 
   handleClick = (id) => {
+    const newCards = [...this.state.cards];
+    const {clicked} = newCards[id];
+    
     console.log(`clicked ${id}`);
-    const {clicked} = this.state.cards[id];
     if(!clicked){
+      newCards[id].clicked = true;
       this.setState({
-        score: this.state.score+1})
+        score: this.state.score+1,
+        cards: newCards});
     }
     else{
       console.log(`already clicked`);
