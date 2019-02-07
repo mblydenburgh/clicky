@@ -18,8 +18,16 @@ class App extends Component {
       ]
   }
 
-  handleClick(event){
-    console.log(`clicked ${event}`);
+  handleClick = (id) => {
+    console.log(`clicked ${id}`);
+    const {clicked} = this.state.cards[id];
+    if(!clicked){
+      this.setState({
+        score: this.state.score+1})
+    }
+    else{
+      console.log(`already clicked`);
+    }
   }
 
   render() {
