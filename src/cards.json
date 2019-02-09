@@ -29,6 +29,36 @@
       "url": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/d/d7/Bev_Bighead.png/revision/latest?cb=20180906234848", 
       "alt": "Bev Bighead", 
       "clicked": false 
+    },
+    { 
+      "url": "https://vignette.wikia.nocookie.net/zimwiki/images/7/72/Art_Zimyelling.png/revision/latest/scale-to-width-down/187?cb=20120814185817", 
+      "alt": "Invader Zim", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://vignette.wikia.nocookie.net/zimwiki/images/f/fc/Dib_by_rondex.png/revision/latest/scale-to-width-down/260?cb=20160412202139", 
+      "alt": "Dab Membrane", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://vignette.wikia.nocookie.net/zimwiki/images/1/16/Gaz_artwork_full.png/revision/latest/scale-to-width-down/241?cb=20121202182454", 
+      "alt": "Gaz Membrane", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://vignette.wikia.nocookie.net/zimwiki/images/d/d2/Girdog.png/revision/latest/scale-to-width-down/221?cb=20080313164837", 
+      "alt": "GIR", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://vignette.wikia.nocookie.net/zimwiki/images/e/ea/ProfMemTrans.png/revision/latest/scale-to-width-down/150?cb=20170227022859", 
+      "alt": "Prof. Membrane", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://vignette.wikia.nocookie.net/zimwiki/images/f/f8/Bittersweet2.png/revision/latest/scale-to-width-down/200?cb=20161215194447", 
+      "alt": "Ms.Bitters", 
+      "clicked": false 
     }
   ]
 }

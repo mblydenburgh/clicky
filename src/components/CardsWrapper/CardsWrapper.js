@@ -32,7 +32,8 @@ CardsWrapper.propTypes = {
 const WrapperDiv = Styled.div`
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-items: center
+    justify-items: center;
+    align-items: center;
     max-width: 80%;
     margin: 0 auto;
 `;
