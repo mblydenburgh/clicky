@@ -1,0 +1,34 @@
+{
+  "cards": [
+    { 
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/ee/Rocko_%28Rocko%27s_Modern_Life%29.png",
+      "alt": "Rocko", 
+      "clicked": false 
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f2/Spunky_%28Rocko%27s_Modern_Life%29.png", 
+      "alt": "Spunky", 
+      "clicked": false
+     },
+    { 
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c8/Heffer_Wolfe.png", 
+      "alt": "Heffer", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Filburt_Shellbach.png/190px-Filburt_Shellbach.png", 
+      "alt": "Filbert", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Ed_Bighead.png", 
+      "alt": "Ed Bighead", 
+      "clicked": false 
+    },
+    { 
+      "url": "https://vignette.wikia.nocookie.net/rockosmodernlife/images/d/d7/Bev_Bighead.png/revision/latest?cb=20180906234848", 
+      "alt": "Bev Bighead", 
+      "clicked": false 
+    }
+  ]
+}

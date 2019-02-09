@@ -27,6 +27,10 @@ module.exports = {
         "react/jsx-one-expression-per-line":0,
         "react/no-unused-expressions":0,
         "no-plusplus":0,
-        "no-param-reassign":0
+        "no-param-reassign":0,
+        "react/no-array-index-key":0,
+        "no-shadow":0,
+        "react/forbid-prop-types":0,
+        "react/require-default-props":0
     }
 };
