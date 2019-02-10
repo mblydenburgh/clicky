@@ -3,13 +3,13 @@ import Styled from 'styled-components';
 import Nav from './components/Nav/Nav';
 import Hero from './components/Hero/Hero';
 import CardsWrapper from './components/CardsWrapper/CardsWrapper';
-import { cards } from './cards.json';
+import { cards as cardData } from './cards.json';
 
 class App extends Component {
   state = {
     score: 0,
     topScore: 0,
-    cards,
+    cards: cardData,
   }
 
   // Fisher-Yates sorting algorithm
@@ -38,7 +38,7 @@ class App extends Component {
       }));
     } else {
       console.log('already clicked');
-      this.setState({ score: 0 });
+      this.setState({ score: 0, cards: cardData });
     }
   }
 
